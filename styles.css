@@ -31,7 +31,12 @@
 
 #navbar__logo {
   background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ff8199 100%);
+  background-image: linear-gradient(
+    to top,
+    #d40033 0%,
+    #ff0bae 80%,
+    #ff8199 100%
+  );
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -150,7 +155,7 @@
   .navbar__btn {
     padding-bottom: 2rem;
   }
-  .buttom {
+  .button {
     display: flex;
     justify-content: center;
     align-items: center;
